@@ -2,14 +2,15 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
+var WildcardsEntryWebpackPlugin = require('wildcards-entry-webpack-plugin');
 
 module.exports = {
-  entry: {
-    app: './src/index.js'
-  },
+  entry: WildcardsEntryWebpackPlugin.entry('./packages/simple-library/*.js', {root:'./packages/web-root/index.js'}, 'lib'),
+  // entry: glob.sync('./packages/**/*.js').reduce((entries, entry) => Object.assign(entries, {[entry.split('/').pop().replace('.js', '')]: entry}), {}),
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/'
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -21,7 +22,8 @@ module.exports = {
       title: 'Output Management'
     }),
     new webpack.NamedModulesPlugin(),
-      new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new WildcardsEntryWebpackPlugin()
   ],
   module: {
     rules: [
