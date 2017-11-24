@@ -10,9 +10,6 @@ module.exports = {
   devtool: 'inline-source-map',
   plugins: [
     new CleanWebpackPlugin([packageInfo.name]),
-		new HtmlWebpackPlugin({
-			title: 'Output Management'
-		})
   ],
   output: {
     filename: 'bundle.js',

@@ -5,7 +5,7 @@ export default {
     component: function() {
         var element = document.createElement('div')
     
-        element.innerHTML = _.join(['Hello', 'Webpack Monorepo'], ' ');
+        element.innerHTML = _.join(['Hello', 'Webpack'], ' ');
         element.classList.add('hello');
     
         return element
