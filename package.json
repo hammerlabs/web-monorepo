@@ -1,6 +1,29 @@
 {
-	"name": "@monorepo",
-	"devDependencies": {
+  "name": "webpack-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo with webpack & lerna",
+  "main": "index.js",
+  "devDependencies": {
+		"del-cli": "^1.1.0",
 		"lerna": "^2.5.1"
-	}
+	},
+	"scripts": {
+    "start": "lerna run start",
+    "clean": "del-cli dist/",
+		"build": "npm run clean && lerna run build"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://Goolzzi@github.com/hammerlabs/web-monorepo.git"
+  },
+  "keywords": [
+    "webpack",
+    "lerna"
+  ],
+  "author": "goolzzijeon@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hammerlabs/web-monorepo/issues"
+  },
+  "homepage": "https://github.com/hammerlabs/web-monorepo#readme"
 }
