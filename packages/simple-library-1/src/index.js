@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import './style.css'
 
-export default {
+const simple = {
     component: function() {
         var element = document.createElement('div')
     
@@ -11,3 +11,5 @@ export default {
         return element
     }
 }
+export default simple
+document.body.appendChild(simple.component())
