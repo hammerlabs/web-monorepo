@@ -25,13 +25,14 @@ module.exports = {
     }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      minChunks: function(module) {
-        console.log('module.resource=====', module.resource)
-        console.log('------', module.resource && module.resource.indexOf("packages/simple-library") !== -1 && (/\.js$/).test(module.resource))
-        return module.resource && module.resource.indexOf("packages/simple-library") !== -1 && (/\.js$/).test(module.resource);
-      }
+    packages.map((package) => {
+      console.log('package----', package)
+      new webpack.optimize.CommonsChunkPlugin({
+        name: `/${package}/vendor`,
+        minChunks: function(module) {
+          return module.resource && module.resource.indexOf("packages/simple-library") !== -1 && (/\.js$/).test(module.resource);
+        }
+      })
     })
   ],
   output: {
