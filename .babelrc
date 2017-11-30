@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "syntax-dynamic-import"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "react"
+  ],
+  "env": {
+    "karma": {
+      "plugins": [
+        [
+          "istanbul",
+          { "exclude": ["tests/*.test.js"] }
+        ]
+      ]
+    }
+  }
+}
