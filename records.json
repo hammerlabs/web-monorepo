@@ -19,7 +19,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -44,7 +44,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -69,7 +69,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -90,7 +90,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -113,7 +113,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -146,7 +146,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -160,7 +160,11 @@
       "node_modules/babel-loader/lib/index.js!src/index.js": "./src/index.js",
       "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--2-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/learn/learn.css": "./src/learn/learn.css",
       "node_modules/babel-loader/lib/index.js!src/learn/learn.js": "./src/learn/learn.js",
-      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--2-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/main.css": "./src/main.css"
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--2-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/main.css": "./src/main.css",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--2-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/console/console.css": "./src/console/console.css",
+      "node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+      "node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+      "node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
     },
     "usedIds": {
       "./loaders/demo-loader.js?name=foo!./src/main.css": "./loaders/demo-loader.js?name=foo!./src/main.css",
@@ -170,7 +174,11 @@
       "./src/index.js": "./src/index.js",
       "./src/learn/learn.css": "./src/learn/learn.css",
       "./src/learn/learn.js": "./src/learn/learn.js",
-      "./src/main.css": "./src/main.css"
+      "./src/main.css": "./src/main.css",
+      "./src/console/console.css": "./src/console/console.css",
+      "./node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+      "./node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+      "./node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
     }
   },
   "chunks": {
@@ -189,5 +197,26 @@
       "3": 3,
       "4": 4
     }
-  }
+  },
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/console/console.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js?{}!src/console/console.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/console/console.css",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/console/console.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/console/console.css",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ]
 }
