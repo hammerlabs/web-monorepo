@@ -7,6 +7,8 @@ const parts = require("./webpack.parts");
 
 const PATHS = {
   app: path.join(__dirname, "src"),
+  console: path.join(__dirname, "src/console"),
+  learn: path.join(__dirname, "src/learn"),
   build: path.join(__dirname, "dist"),
 };
 
@@ -108,19 +110,27 @@ const developmentConfig = merge([
 module.exports = env => {
   const pages = [
     parts.page({
-      title: "Webpack demo",
       entry: {
         app: PATHS.app,
       },
+      template: `${PATHS.app}/index.html`,
       chunks: ["app", "manifest", "vendor"],
     }),
     parts.page({
-      title: "Another demo",
-      path: "another",
+      path: "console",
       entry: {
-        another: path.join(PATHS.app, "another.js"),
+        console: path.join(PATHS.console, "console.js"),
       },
-      chunks: ["another", "manifest", "vendor"],
+      template: `${PATHS.console}/index.html`,
+      chunks: ["console", "manifest", "vendor"],
+    }),
+    parts.page({
+      path: "learn",
+      template: `${PATHS.learn}/index.html`,
+      entry: {
+        learn: path.join(PATHS.learn, "learn.js"),
+      },
+      chunks: ["learn", "manifest", "vendor"],
     }),
   ];
   const config =

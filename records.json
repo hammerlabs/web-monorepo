@@ -1,0 +1,193 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/index.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+          "node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        },
+        "usedIds": {
+          "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "./node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "./node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+          "./node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "html-webpack-plugin for \"console/index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/console/index.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/console/index.html",
+          "node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+          "node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        },
+        "usedIds": {
+          "./node_modules/html-webpack-plugin/lib/loader.js!./src/console/index.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/console/index.html",
+          "./node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "./node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+          "./node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "html-webpack-plugin for \"learn/index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!src/learn/index.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/learn/index.html",
+          "node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+          "node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        },
+        "usedIds": {
+          "./node_modules/html-webpack-plugin/lib/loader.js!./src/learn/index.html": "./node_modules/html-webpack-plugin/lib/loader.js!./src/learn/index.html",
+          "./node_modules/lodash/lodash.js": "./node_modules/lodash/lodash.js",
+          "./node_modules/webpack/buildin/global.js": "./node_modules/webpack/buildin/global.js",
+          "./node_modules/webpack/buildin/module.js": "./node_modules/webpack/buildin/module.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/learn/learn.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js?{}!src/learn/learn.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/learn/learn.css",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/learn/learn.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/learn/learn.css",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/main.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js?{}!src/main.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/main.css",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
+          "node_modules/url-loader/index.js??ref--3!src/logo.png": "./src/logo.png"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/main.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./src/main.css",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
+          "./src/logo.png": "./src/logo.png"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!node_modules/font-awesome/css/font-awesome.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js?{}!node_modules/font-awesome/css/font-awesome.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./node_modules/font-awesome/css/font-awesome.css",
+          "node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
+          "node_modules/file-loader/dist/cjs.js??ref--0!node_modules/font-awesome/fonts/fontawesome-webfont.eot": "./node_modules/font-awesome/fonts/fontawesome-webfont.eot",
+          "node_modules/file-loader/dist/cjs.js??ref--0!node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0",
+          "node_modules/url-loader/index.js??ref--3!node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0",
+          "node_modules/file-loader/dist/cjs.js??ref--0!node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0",
+          "node_modules/file-loader/dist/cjs.js??ref--0!node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+          "node_modules/file-loader/dist/cjs.js??ref--0!node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0"
+        },
+        "usedIds": {
+          "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./node_modules/font-awesome/css/font-awesome.css": "./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js?{}!./node_modules/font-awesome/css/font-awesome.css",
+          "./node_modules/css-loader/lib/css-base.js": "./node_modules/css-loader/lib/css-base.js",
+          "./node_modules/font-awesome/fonts/fontawesome-webfont.eot": "./node_modules/font-awesome/fonts/fontawesome-webfont.eot",
+          "./node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0",
+          "./node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0",
+          "./node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0",
+          "./node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+          "./node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0": "./node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0"
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "byBlocks": {},
+        "usedIds": {
+          "0": 0
+        }
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "loaders/demo-loader.js?name=foo!src/main.css": "./loaders/demo-loader.js?name=foo!./src/main.css",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--2-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!node_modules/font-awesome/css/font-awesome.css": "./node_modules/font-awesome/css/font-awesome.css",
+      "node_modules/babel-loader/lib/index.js!src/component.js": "./src/component.js",
+      "node_modules/babel-loader/lib/index.js!src/console/console.js": "./src/console/console.js",
+      "node_modules/babel-loader/lib/index.js!src/index.js": "./src/index.js",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--2-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/learn/learn.css": "./src/learn/learn.css",
+      "node_modules/babel-loader/lib/index.js!src/learn/learn.js": "./src/learn/learn.js",
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--2-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--2-3!src/main.css": "./src/main.css"
+    },
+    "usedIds": {
+      "./loaders/demo-loader.js?name=foo!./src/main.css": "./loaders/demo-loader.js?name=foo!./src/main.css",
+      "./node_modules/font-awesome/css/font-awesome.css": "./node_modules/font-awesome/css/font-awesome.css",
+      "./src/component.js": "./src/component.js",
+      "./src/console/console.js": "./src/console/console.js",
+      "./src/index.js": "./src/index.js",
+      "./src/learn/learn.css": "./src/learn/learn.css",
+      "./src/learn/learn.js": "./src/learn/learn.js",
+      "./src/main.css": "./src/main.css"
+    }
+  },
+  "chunks": {
+    "byName": {
+      "app": 0,
+      "learn": 1,
+      "vendor": 2,
+      "console": 3,
+      "manifest": 4
+    },
+    "byBlocks": {},
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  }
+}

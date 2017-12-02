@@ -8,8 +8,7 @@
       {
         "modules": false
       }
-    ],
-    "react"
+    ]
   ],
   "env": {
     "karma": {
