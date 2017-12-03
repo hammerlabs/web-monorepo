@@ -2,7 +2,20 @@
 
 <dom-module id="nav-bar">
   <template>
-    <div>
+  <style>
+      .nav-bar {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color: #ccc;
+        border-radius: 8px;
+        padding: 4px;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <div class="nav-bar">
       <a href="/">Main Page</a>
       <a href="/console">Console Page</a>
       <a href="/learn">Learn Page</a>
