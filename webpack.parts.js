@@ -153,15 +153,27 @@ exports.loadFonts = ({ include, exclude, options } = {}) => ({
     ],
   },
 });
+exports.loadPolymer = ({ include, exclude, options } = {}) => ({
+  module: {
+    rules: [
+      {
+        test: /\.html$/,
+        include,
+        exclude,
+        loader: 'polymer-webpack-loader'
+      }
+    ]
+  }
+})
 
-exports.loadJavaScript = ({ include, exclude } = {}) => ({
+exports.loadJavaScript = ({ include, exclude, options } = {}) => ({
   module: {
     rules: [
       {
         test: /\.js$/,
         include,
         exclude,
-
+        options,
         loader: "babel-loader",
       },
     ],

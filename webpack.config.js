@@ -34,6 +34,7 @@ const commonConfig = merge([
     },
   }),
   parts.loadJavaScript({ include: PATHS.app }),
+  parts.loadPolymer()
 ]);
 
 const productionConfig = merge([
@@ -113,7 +114,7 @@ module.exports = env => {
       entry: {
         app: PATHS.app,
       },
-      template: `${PATHS.app}/index.html`,
+      template: `${PATHS.app}/index.ejs`,
       chunks: ["app", "manifest", "vendor"],
     }),
     parts.page({
@@ -121,12 +122,12 @@ module.exports = env => {
       entry: {
         console: path.join(PATHS.console, "console.js"),
       },
-      template: `${PATHS.console}/index.html`,
+      template: `${PATHS.console}/index.ejs`,
       chunks: ["console", "manifest", "vendor"],
     }),
     parts.page({
       path: "learn",
-      template: `${PATHS.learn}/index.html`,
+      template: `${PATHS.learn}/index.ejs`,
       entry: {
         learn: path.join(PATHS.learn, "learn.js"),
       },
