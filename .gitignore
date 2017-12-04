@@ -1,5 +1,7 @@
 node_modules/
-build/
 .eslintcache
-dist*
-
+dist/
+.DS_Store
+ehthumbs.db
+Thumbs.db
+*.log
