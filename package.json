@@ -29,6 +29,7 @@
     "babel-preset-env": "^1.6.1",
     "browser-refresh": "^1.7.2",
     "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.2.3",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
     "express": "^4.16.2",
@@ -65,8 +66,6 @@
     "webpack-sources": "^1.0.2"
   },
   "dependencies": {
-    "@polymer/polymer": "^2.2.0",
-    "@webcomponents/webcomponentsjs": "^1.0.20",
     "font-awesome": "^4.7.0"
   }
 }

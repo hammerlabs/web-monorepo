@@ -5,3 +5,4 @@ dist/
 ehthumbs.db
 Thumbs.db
 *.log
+bower_components/

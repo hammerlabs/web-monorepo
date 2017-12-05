@@ -27,6 +27,12 @@ const commonConfig = merge([
       },
     },
     plugins: [new webpack.NamedModulesPlugin()],
+    resolve: {
+      modules: [
+        path.resolve(__dirname, 'node_modules'),
+        path.resolve(__dirname, 'bower_components')
+      ]
+    },
   },
   parts.loadFonts({
     options: {
@@ -34,7 +40,8 @@ const commonConfig = merge([
     },
   }),
   parts.loadJavaScript({ include: PATHS.app }),
-  parts.loadPolymer()
+  parts.loadPolymer(),
+  parts.copyWebcomponents()
 ]);
 
 const productionConfig = merge([

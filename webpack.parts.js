@@ -7,6 +7,8 @@ const UglifyWebpackPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const cssnano = require("cssnano");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require("path");
 
 exports.page = (
   {
@@ -26,10 +28,17 @@ exports.page = (
       filename: `${path && path + "/"}index.html`,
       template,
       title,
-    }),
+    })
   ],
 });
-
+exports.copyWebcomponents = () => ({
+  plugins: [
+    new CopyWebpackPlugin([{
+      from: path.resolve(__dirname, 'bower_components/webcomponentsjs/*.js'),
+      to: 'bower_components/webcomponentsjs/[name].[ext]'
+    }]),
+  ],
+});
 exports.minifyCSS = ({ options }) => ({
   plugins: [
     new OptimizeCSSAssetsPlugin({
@@ -160,7 +169,10 @@ exports.loadPolymer = ({ include, exclude, options } = {}) => ({
         test: /\.html$/,
         include,
         exclude,
-        loader: 'polymer-webpack-loader'
+        use: [
+          { loader: 'babel-loader' },
+          { loader: 'polymer-webpack-loader' }
+        ]
       }
     ]
   }

@@ -21,7 +21,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -48,7 +48,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -75,7 +75,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -190,7 +190,22 @@
       "node_modules/polymer-webpack-loader/dist/cjs.js!src/components/nav-bar/nav-bar.html": "./src/components/nav-bar/nav-bar.html",
       "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--3-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--3-3!src/console/console.css": "./src/console/console.css",
       "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--3-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--3-3!src/learn/learn.css": "./src/learn/learn.css",
-      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--3-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--3-3!src/main.css": "./src/main.css"
+      "node_modules/extract-text-webpack-plugin/dist/loader.js??ref--3-0!node_modules/style-loader/index.js!node_modules/css-loader/index.js!node_modules/postcss-loader/lib/index.js??ref--3-3!src/main.css": "./src/main.css",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/elements/dom-module.html": "./bower_components/polymer/lib/elements/dom-module.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/mixins/element-mixin.html": "./bower_components/polymer/lib/mixins/element-mixin.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/mixins/property-accessors.html": "./bower_components/polymer/lib/mixins/property-accessors.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/mixins/property-effects.html": "./bower_components/polymer/lib/mixins/property-effects.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/mixins/template-stamp.html": "./bower_components/polymer/lib/mixins/template-stamp.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/async.html": "./bower_components/polymer/lib/utils/async.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/boot.html": "./bower_components/polymer/lib/utils/boot.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/case-map.html": "./bower_components/polymer/lib/utils/case-map.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/mixin.html": "./bower_components/polymer/lib/utils/mixin.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/path.html": "./bower_components/polymer/lib/utils/path.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/resolve-url.html": "./bower_components/polymer/lib/utils/resolve-url.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/settings.html": "./bower_components/polymer/lib/utils/settings.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/lib/utils/style-gather.html": "./bower_components/polymer/lib/utils/style-gather.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!bower_components/polymer/polymer-element.html": "./bower_components/polymer/polymer-element.html",
+      "node_modules/babel-loader/lib/index.js!node_modules/polymer-webpack-loader/dist/cjs.js!src/components/nav-bar/nav-bar.html": "./src/components/nav-bar/nav-bar.html"
     },
     "usedIds": {
       "./loaders/demo-loader.js?name=foo!./src/main.css": "./loaders/demo-loader.js?name=foo!./src/main.css",
@@ -220,7 +235,21 @@
       "./node_modules/@polymer/polymer/lib/utils/style-gather.html": "./node_modules/@polymer/polymer/lib/utils/style-gather.html",
       "./node_modules/@polymer/polymer/polymer-element.html": "./node_modules/@polymer/polymer/polymer-element.html",
       "./node_modules/polymer-webpack-loader/register-html-template.js": "./node_modules/polymer-webpack-loader/register-html-template.js",
-      "./src/components/nav-bar/nav-bar.html": "./src/components/nav-bar/nav-bar.html"
+      "./src/components/nav-bar/nav-bar.html": "./src/components/nav-bar/nav-bar.html",
+      "./bower_components/polymer/lib/elements/dom-module.html": "./bower_components/polymer/lib/elements/dom-module.html",
+      "./bower_components/polymer/lib/mixins/element-mixin.html": "./bower_components/polymer/lib/mixins/element-mixin.html",
+      "./bower_components/polymer/lib/mixins/property-accessors.html": "./bower_components/polymer/lib/mixins/property-accessors.html",
+      "./bower_components/polymer/lib/mixins/property-effects.html": "./bower_components/polymer/lib/mixins/property-effects.html",
+      "./bower_components/polymer/lib/mixins/template-stamp.html": "./bower_components/polymer/lib/mixins/template-stamp.html",
+      "./bower_components/polymer/lib/utils/async.html": "./bower_components/polymer/lib/utils/async.html",
+      "./bower_components/polymer/lib/utils/boot.html": "./bower_components/polymer/lib/utils/boot.html",
+      "./bower_components/polymer/lib/utils/case-map.html": "./bower_components/polymer/lib/utils/case-map.html",
+      "./bower_components/polymer/lib/utils/mixin.html": "./bower_components/polymer/lib/utils/mixin.html",
+      "./bower_components/polymer/lib/utils/path.html": "./bower_components/polymer/lib/utils/path.html",
+      "./bower_components/polymer/lib/utils/resolve-url.html": "./bower_components/polymer/lib/utils/resolve-url.html",
+      "./bower_components/polymer/lib/utils/settings.html": "./bower_components/polymer/lib/utils/settings.html",
+      "./bower_components/polymer/lib/utils/style-gather.html": "./bower_components/polymer/lib/utils/style-gather.html",
+      "./bower_components/polymer/polymer-element.html": "./bower_components/polymer/polymer-element.html"
     }
   },
   "chunks": {
@@ -277,7 +306,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -298,7 +327,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -321,7 +350,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
@@ -354,7 +383,7 @@
         "byName": {},
         "byBlocks": {},
         "usedIds": {
-          "0": 0
+          "1": 1
         }
       }
     }
