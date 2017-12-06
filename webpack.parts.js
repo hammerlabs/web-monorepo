@@ -26,6 +26,7 @@ exports.page = (
     new HtmlWebpackPlugin({
       chunks,
       filename: `${path && path + "/"}index.html`,
+      inject: false,
       template,
       title,
     })
@@ -178,14 +179,13 @@ exports.loadPolymer = ({ include, exclude, options } = {}) => ({
   }
 })
 
-exports.loadJavaScript = ({ include, exclude, options } = {}) => ({
+exports.loadJavaScript = ({ include, exclude } = {}) => ({
   module: {
     rules: [
       {
         test: /\.js$/,
         include,
         exclude,
-        options,
         loader: "babel-loader",
       },
     ],
